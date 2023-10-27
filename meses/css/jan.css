@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Poppins:wght@400;600 & family= Roboto:wght@400;500 & display=swap");
+
+* {
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: white;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(1, 700px);
+  grid-template-rows: repeat(1, 500px);
+  background: rgb(255, 255, 255);
+  grid-gap: 9px;
+  margin: 0;
+  padding: 0;
+}
+
+.mar {
+    border-radius: 25px;
+    color: grey;
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+
+
+.add {
+  border-radius: 25px;
+  border: none;
+  font-size: 20px;
+  color: grey;
+  font-family: "Bebas Neue", sans-serif;
+  cursor: pointer;
+}
+
+.add :hover {
+    transform: scale(0.9);
+    transition: 0.9s;
+  }
+
+.mar {
+  background: #f7f7f7;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+
+.add {
+  background: #370617;
+  grid-row: 5;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  height: 50px;
+}
