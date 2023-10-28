@@ -6,19 +6,31 @@
     <link rel="stylesheet" href="./css/add.css">
     <title>JA distribuidora</title>
 </head>
-<body>
-    <div class="containe" id="cont">
-        <div class="adicio">
-          <div class="logo"><h2>JA</h2></div>
-          
-          <form>
-            
-            <div>
-                <label for="nome">Nome: </label>
-                <input type="text" id="nome" name="nome" required>
-            </div>
-            
-        </form>
+<body>         
+        <div class="box">
+            <form action="">
+                <fieldset>
+                    <legend><b>Informações do recibo</b></legend>
+                    <br>
+                    <div class="inputBox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                        <label for="nome" class="labelImput">Nome completo</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="text" name="pix" id="pix" class="inputUser" required>
+                        <label for="pix" class="labelImput">Chave pix</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="date" name="data_dia" id="data_dia" class="inputUser" required>
+                        <label for="data_dia" class="labelImput"></label>
+                    </div>
+                    <br><br>
+                    <input type="submit" nome="submit" id="submit">
+                </fieldset>
+            </form>
+        </div>
         
     </div>
     </div>
